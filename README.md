@@ -46,5 +46,5 @@ For more information on the command stucure look to the [annyang documentation](
 
 ## Usage with external modules
 - Voice Commands communicates with other modules through the notification system.<br/>
-- Voice Commands was developed in conjunction with MMM-Page-Selector. Two use the two together simply use a command in the following format:<br/>
+- Voice Commands was developed in conjunction with [MMM-Page-Selector](https://github.com/Veldrovive/MMM-Page-Selector). Two use the two together simply use a command in the following format:<br/>
 `"switch to (the) :page (page)": "PAGE_SELECT"` or `"go to (page) :number": "PAGE_SELECT"`
