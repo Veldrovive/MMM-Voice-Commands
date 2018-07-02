@@ -43,3 +43,8 @@ modules[
 - If a function is provided as the property in a command, the module will simply run the function when the command is hear. The argument of the command is given by the variable and `this` refers to the module's `this`.
 
 For more information on the command stucure look to the [annyang documentation](https://www.talater.com/annyang/)
+
+## Usage with external modules
+- Voice Commands communicates with other modules through the notification system.<br/>
+- Voice Commands was developed in conjunction with MMM-Page-Selector. Two use the two together simply use a command in the following format:<br/>
+`"switch to (the) :page (page)": "PAGE_SELECT"` or `"go to (page) :number": "PAGE_SELECT"`
