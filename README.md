@@ -1,4 +1,5 @@
 # MMM-Voice-Commands
+![Demo](https://i.imgur.com/u0k3598.gif)<br/>
 Voice Commands is a voice commands module that is designed to be bare bones and allow the user to do whatever they want on their [MagicMirror²](https://github.com/MichMich/MagicMirror). The voice recognition is built off of [annyang](https://github.com/TalAter/annyang) so it uses a command based structure. However, it does not use an activation phrase and instead just opts for direct use of statements.
 
 ## Installation
