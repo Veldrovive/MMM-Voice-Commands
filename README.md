@@ -24,7 +24,11 @@ modules[
     {
         module: "MMM-Page-Selector",
         config: {
-            debug: false,
+            debug: false, //Displays end results and errors from annyang in the Log
+            autoStart: true, //Adds annyang commands when it first starts
+            activateCommand: "hello mirror", //Command to active all other commands
+            deactivateCommand: "goodbye mirror", //Command to deactivate all other commands
+            alertHeard: false, //Whether an alert should be shown when annyang hears a phrase (mostly for debug)
             commands: {
                 "command statement :variable (optional statement)": "SOCKET_NOTIFICATION_NAME",
                 //The payload of the socket notification will be whatever is said in the :variable
@@ -46,5 +50,6 @@ For more information on the command stucure look to the [annyang documentation](
 
 ## Usage with external modules
 - Voice Commands communicates with other modules through the notification system.<br/>
+- The alert module is automatically utilized if it is present.<br/>
 - Voice Commands was developed in conjunction with [MMM-Page-Selector](https://github.com/Veldrovive/MMM-Page-Selector). Two use the two together simply use a command in the following format:<br/>
 `"switch to (the) :page (page)": "PAGE_SELECT"` or `"go to (page) :number": "PAGE_SELECT"`
