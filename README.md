@@ -23,7 +23,7 @@ cd MMM-Page-Selector && npm i
 modules[
     ...
     {
-        module: "MMM-Page-Selector",
+        module: "MMM-Voice-Commands",
         config: {
             debug: false, //Displays end results and errors from annyang in the Log
             autoStart: true, //Adds annyang commands when it first starts
