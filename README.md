@@ -10,7 +10,7 @@ cd ~/MagicMirror/modules
 
 Clone the repository.
 ```bash
-git clone https://github.com/Veldrovive/MMM-Page-Selector.git
+git clone https://github.com/Veldrovive/MMM-Voice-Commands.git
 ```
 
 Navigate into the installation and Install Dependencies.
