@@ -18,7 +18,7 @@ git clone https://github.com/Veldrovive/MMM-Voice-Commands.git
 
 Navigate into the installation and Install Dependencies.
 ```bash
-cd MMM-Page-Selector && npm i
+cd MMM-Voice-Commands && npm i
 ```
 
 ## Usage
