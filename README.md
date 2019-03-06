@@ -2,8 +2,8 @@
 ![Demo](https://i.imgur.com/u0k3598.gif)<br/>
 Voice Commands is a voice commands module that is designed to be bare bones and allow the user to do whatever they want on their [MagicMirror²](https://github.com/MichMich/MagicMirror). The voice recognition is built off of [annyang](https://github.com/TalAter/annyang) so it uses a command based structure. However, it does not use an activation phrase and instead just opts for direct use of statements.
 
-#### Important Note: 
-annyang does not work when Magic Mirror is run using electron. The serveronly mode must be used for this module to function.
+### IMPORTANT NOTE - Read before installing: 
+annyang does not work when Magic Mirror is run using some browsers. In order to ensure that it works, use chrome or firefox if possible. This also means that electron cannot be used since it is a chromium wrapper. The serveronly mode must be used for this module to function.
 
 ## Installation
 Navigate to the modules folder of your Magic Mirror installation.
